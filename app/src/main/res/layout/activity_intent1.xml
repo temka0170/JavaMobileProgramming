@@ -5,27 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Lesson2.CheckBox">
+    tools:context=".Lesson3.Intent1">
 
-    <CheckBox
-        android:id="@+id/chAndroid"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Android"
+        android:text="Intent 1"
+        android:textAlignment="center"
+        android:textSize="40dp"
         android:textStyle="bold"/>
-    <CheckBox
-        android:id="@+id/chWeb"
+    
+    <Spinner
+        android:id="@+id/sp"
+        android:spinnerMode="dropdown"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Web"
-        android:textStyle="bold"/>
-    <CheckBox
-        android:id="@+id/chJava"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Java"
-        android:textStyle="bold"/>
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

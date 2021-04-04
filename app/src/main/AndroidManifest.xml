@@ -13,10 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Lesson3.Intent2"></activity>
+        <activity android:name=".Lesson3.Intent1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lesson3.SpinnerLab">
+        </activity>
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity1" />
+        <activity android:name=".SpinnerDemo" />
+
         <uses-library
             android:name="com.google.android.wearable"
             android:required="true" />
-
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
@@ -26,24 +39,9 @@
             android:value="true" />
 
         <activity
-            android:name=".Lesson2.CheckBox"
-            android:label="@string/title_activity_check_box">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyApplication.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
     </application>
 
 </manifest>
