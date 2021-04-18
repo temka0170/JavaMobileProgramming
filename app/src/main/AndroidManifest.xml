@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Lesson4.Course"></activity>
+        <activity android:name=".Lesson6.Canvas"></activity>
+        <activity android:name=".Lesson6.MainList" />
+        <activity android:name=".Lesson4.Course" />
         <activity android:name=".Lesson4.Plan" />
         <activity android:name=".Lesson4.Intro" />
         <activity android:name=".Lesson4.Lab5">
@@ -25,8 +27,7 @@
         </activity>
         <activity android:name=".Lesson4.popupMenu" />
         <activity android:name=".Lesson4.contextMenu" />
-        <activity android:name=".Lesson4.optionMenu">
-        </activity>
+        <activity android:name=".Lesson4.optionMenu" />
         <activity android:name=".Lesson3.Intent2" />
         <activity android:name=".Lesson3.Intent1" />
         <activity android:name=".Lesson3.SpinnerLab" />
