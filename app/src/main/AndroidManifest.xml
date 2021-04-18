@@ -13,16 +13,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Lesson3.Intent2"></activity>
-        <activity android:name=".Lesson3.Intent1">
+        <activity android:name=".Lesson4.popupMenu"></activity>
+        <activity android:name=".Lesson4.contextMenu" />
+        <activity android:name=".Lesson4.optionMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Lesson3.SpinnerLab">
-        </activity>
+        <activity android:name=".Lesson3.Intent2" />
+        <activity android:name=".Lesson3.Intent1" />
+        <activity android:name=".Lesson3.SpinnerLab" />
         <activity android:name=".Activity2" />
         <activity android:name=".Activity1" />
         <activity android:name=".SpinnerDemo" />
