@@ -3,16 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#8BC34A"
     tools:context=".Lesson7.TabThree">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:textSize="20dp"
-        android:textColor="#fff"
+        android:textColor="#0B0000"
         android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery"/>
+    <GridView
+        android:id="@+id/gv"
+        android:numColumns="3"
+        android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

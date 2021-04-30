@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Lesson7.Tab"></activity>
+        <activity android:name=".Lesson7.GridViewItems"></activity>
+        <activity android:name=".Lesson7.Tab" />
         <activity android:name=".Lesson6.Canvas" />
         <activity android:name=".Lesson6.MainList" />
         <activity android:name=".Lesson4.Course" />
