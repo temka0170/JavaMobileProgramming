@@ -13,7 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Midterm.RegisterInfo"></activity>
+        <activity android:name=".Lesson9.FileInternal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Midterm.RegisterInfo" />
         <activity android:name=".Midterm.GalleryInfo" />
         <activity android:name=".Midterm.CountryInfo" />
         <activity android:name=".Midterm.MidtermMain" />
@@ -24,13 +31,7 @@
         <activity android:name=".Lesson4.Course" />
         <activity android:name=".Lesson4.Plan" />
         <activity android:name=".Lesson4.Intro" />
-        <activity android:name=".Lesson4.Lab5">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Lesson4.Lab5" />
         <activity android:name=".Lesson4.popupMenu" />
         <activity android:name=".Lesson4.contextMenu" />
         <activity android:name=".Lesson4.optionMenu" />
